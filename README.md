@@ -3,13 +3,15 @@
 Este documento describe un sistema de control de taxis implementado en C++ como parte del Trabajo Práctico Nro 1 de la materia Programación (UTN - FRC) para el año 2023.
 
 ## Encabezado
-Nombre : prog_MAC210097tp1
-Universidad : FRC-UTN
-Materia : Programación
-Docente : José Luis Martinez
-Autor : Miguel A. Calveiro
-Version : 1.0
-Description : Trabajo Práctico Nro 1
+
+- Nombre : prog_MAC210097tp1
+- Universidad : FRC-UTN
+- Materia : Programación
+- Docente : José Luis Martinez
+- Autor : Miguel A. Calveiro
+- Version : 1.0
+- Description : Trabajo Práctico Nro 1
+- Año: 2023
 
 ## Descripción del Programa
 
