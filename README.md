@@ -45,7 +45,8 @@ La relación `1 a 1` entre `Taxiclass` y `DatosTaxi` indica que un objeto `Taxic
 
 Este trabajo práctico demuestra cómo implementar un sistema de control de taxis en C++, utilizando diagramas de actividad y de clase para representar el flujo del programa y la estructura de las clases. El sistema logra gestionar información detallada sobre los taxis y sus actividades.
 
-### Carpetas
+### Carpetas & Link
 
 - **src**: Contiene el código fuente del programa implementado como un proyecto en Qt Creator.
 - **doc**: Contiene los archivos PlantUML para generar el diagrama de clase principal y el diagrama de actividad de la función principal Main.
+- **link**: [Youtube Link: https://www.youtube.com/watch?v=mUuowT4ywPM](https://www.youtube.com/watch?v=mUuowT4ywPM)
