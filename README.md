@@ -1,6 +1,6 @@
 # Trabajo Práctico Nro 1 - Sistema de Control de Taxis
 
-Este documento describe un sistema de control de taxis implementado en C++ como parte del Trabajo Práctico Nro 1 de la materia Programación (UTN - FRC) para el año 2023.
+Esta aplicación simula la implementación de un sistema de control de taxis, codificado en C++ como parte del Trabajo Práctico Nro 1 de la materia Programación (UTN - FRC) para el año 2023.
 
 ## Encabezado
 
