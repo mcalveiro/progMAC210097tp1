@@ -1,12 +1,20 @@
-#ifndef TAXICLASS_H_
-#define TAXICLASS_H_
+// Nombre      : progMAC210097tp1
+// Universidad : FRC-UTN
+// Materia     : Programación
+// Docente     : José Luis Martinez
+// Autor       : Miguel A. Calveiro
+// Version     : 1.0
+// Description : Trabajo Práctico Nro 1
+
+#ifndef TAXICLASS_TAXIMAC210097_H_
+#define TAXICLASS_TAXIMAC210097_H_
 
 #include <string>
 
 using namespace std;
 
 /* Registro de alarmas de 8 bits con los siguientes datos:
--Bit 0: Botón de pánico (Asalto)
+-Bit 0: Boton de panico Asalto)
 -Bit 1: Vehículo detenido por más de 10 minutos
 -Bit 2: Pasajeros sospechosos, avisar a policía para control
 -Bit 3: Chofer descansando ignorar alarma bit 1
@@ -62,7 +70,7 @@ private:
     uint8_t alarmas;
     float distanciaRecorrida;
 
-    // Declaración función (Toma por parametro la enumeración definida)
+    // Declaración de función (Toma por parametro la enumeración definida)
     bool verificarAlarma(Alarmas alarma);
 
 public:
@@ -91,4 +99,4 @@ public:
 
 };
 
-#endif /* TAXICLASS_H_ */
+#endif /* TAXICLASS_TAXIMAC210097_H_ */

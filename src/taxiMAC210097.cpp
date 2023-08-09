@@ -1,5 +1,5 @@
 //=============================================================
-// Nombre      : prog_MAC210097tp1
+// Nombre      : progMAC210097tp1
 // Universidad : FRC-UTN
 // Materia     : Programación
 // Docente     : José Luis Martinez
@@ -13,7 +13,7 @@
 //*************************************************************
 
 
-#include "taxiclass.h"
+#include "taxiclass_taxiMAC210097.h"
 #include <iostream>
 
 int main() {
