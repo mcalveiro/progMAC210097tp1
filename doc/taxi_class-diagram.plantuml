@@ -1,0 +1,64 @@
+@startuml taxiClassDigram
+class Taxiclass {
+    -numeroInterno : int
+    -marcaAuto : string
+    -patente : string
+    -propietario : string
+    -chofer : string
+    -telContacto : string
+    -fechaAltaServicio : string
+    -fechaBajaServicio : string
+    -latitud : float
+    -longitud : float
+    -horaUnix : uint32_t
+    -alarmas : uint8_t
+    -distanciaRecorrida : float
+
+    +Taxiclass()
+    +Taxiclass(datos : DatosTaxi)
+    +Taxiclass(other : Taxiclass)
+    +~Taxiclass()
+    +setPropietario(prop : string) : void
+    +setChofer(chof : string) : void
+    +imprimirTaxi() : void
+    +calcularLatitudLongitud(unixTime : uint32_t, lat : float, lon : float, alarmasActivas : uint8_t) : void
+    +obtenerChofer() : void
+    +imprimirAlarmasActivas() : void
+    +calcularDistancia(lat : float, lon : float) : void
+    +obtenerDistanciaRecorrida() : float
+
+    -verificarAlarma(alarma : Alarmas) : bool
+}
+
+class DatosTaxi {
+    -numeroInterno : int
+    -marcaAuto : string
+    -patente : string
+    -propietario : string
+    -chofer : string
+    -telContacto : string
+    -fechaAltaServicio : string
+    -fechaBajaServicio : string
+    -latitud : float
+    -longitud : float
+    -horaUnix : uint32_t
+    -alarmas : uint8_t
+    -distanciaRecorrida : float
+}
+
+Taxiclass "1" -- "1" DatosTaxi : contains
+
+enum Alarmas {
+    Alarma1
+    Alarma2
+    Alarma3
+    Alarma4
+    Alarma5
+    Alarma6
+    Alarma7
+    Alarma8
+}
+
+Taxiclass --> Alarmas : uses
+
+@enduml

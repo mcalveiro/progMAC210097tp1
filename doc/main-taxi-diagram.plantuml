@@ -1,0 +1,51 @@
+@startuml MainTaxiTP1
+start
+
+:Crear objeto Taxi1;
+note right: Crear objeto Taxi1\ncon datos iniciales;
+
+:Calcular latitud y longitud del Taxi1;
+note right: Calcular latitud y longitud\ndel Taxi1 con alarmas;
+
+:Calcular distancia para el Taxi1;
+note right: Calcular distancia entre\npuntos para el Taxi1;
+
+:Imprimir detalles del Taxi1;
+note right: Imprimir detalles del\nTaxi1 y distancia recorrida;
+
+:Imprimir eventos de alarmas activas para Taxi1;
+note right: Imprimir eventos de alarmas\nactivas para Taxi1;
+
+:Crear objeto Taxi2;
+note right: Crear objeto Taxi2\ncon datos iniciales;
+
+:Calcular latitud y longitud del Taxi2;
+note right: Calcular latitud y longitud\ndel Taxi2 con alarmas;
+
+:Calcular distancia para el Taxi2;
+note right: Calcular distancia entre\npuntos para el Taxi2;
+
+:Imprimir detalles del Taxi2;
+note right: Imprimir detalles del\nTaxi2 y distancia recorrida;
+
+:Imprimir eventos de alarmas activas para Taxi2;
+note right: Imprimir eventos de alarmas\nactivas para Taxi2;
+
+:Crear objeto Taxi3;
+note right: Crear objeto Taxi3\ncon datos iniciales;
+
+:Calcular latitud y longitud del Taxi3;
+note right: Calcular latitud y longitud\ndel Taxi3 con alarmas;
+
+:Calcular distancia para el Taxi3;
+note right: Calcular distancia entre\npuntos para el Taxi3;
+
+:Imprimir detalles del Taxi3;
+note right: Imprimir detalles del\nTaxi3 y distancia recorrida;
+
+:Imprimir eventos de alarmas activas para Taxi3;
+note right: Imprimir eventos de alarmas\nactivas para Taxi3;
+
+stop
+@enduml
+
